@@ -66,4 +66,4 @@ def class_word_counts(file_path, case_sensitive = True, treat_punct_as_word = Fa
 		if len(w) > 0:
 			cleaned_words.append(w.strip())
 	return histogram(cleaned_words)		
-
+		
