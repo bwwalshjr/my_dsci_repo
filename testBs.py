@@ -29,5 +29,24 @@ import string
 #print(bs.histogram(['1','2','2','3','3','3','a','b','c','c']))
 
 #Tests file reading histogram function
-print(bs.word_counts('C:\GitHub\my_dsci_401\data\sample_text.txt', case_sensitive=True))
+#print(bs.word_counts('C:\GitHub\my_dsci_401\data\sample_text.txt', case_sensitive=True))
 #print(bs.class_word_counts('C:\GitHub\my_dsci_401\data\sample_text.txt', case_sensitive=True))
+
+#Tests my max function
+#print(bs.my_max([2,4,23,5,2,1,6,9,3,2]))
+#print(bs.my_max([]))
+
+#Test variable number of inputs
+#bs.variable_number_of_inputs(1,2,3,4,5,6,7,'fuck','you')
+
+#Test fzip
+#list_a = [1,2,3]
+#list_b = [4,5,6]
+#print(bs.f_zip((lambda x,y: x+y), list_a, list_b))
+#print(bs.f_zip(max, [1,2,3], [4,5,6], [7,8,9]))
+
+#Test recursive sum_range
+#print(bs.sum_range(10,20))
+
+#Test fibonacci sequence
+print(bs.fib(1,1,6))

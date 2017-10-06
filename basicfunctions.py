@@ -67,3 +67,41 @@ def class_word_counts(file_path, case_sensitive = True, treat_punct_as_word = Fa
 			cleaned_words.append(w.strip())
 	return histogram(cleaned_words)		
 
+#Returns the largest element in thelist	
+def my_max(elements):	
+	if(len(elements) > 0):
+		max = elements[0]
+		for element in elements:
+			max = element if element > max else max 
+		return max
+	return None
+	
+def variable_number_of_inputs(a, b,*rest):
+	print("A is " + str(a))
+	print("B is " + str(b))
+	for e in rest:
+		print("Next optional input: " + str(e))
+		
+		
+#zip: reduces you a list of tuples
+#map: pass in function and list, applies the function to each singular element
+#filter: pass in function and list, filters out elements that don't match the function
+#reduce: pass in function and list, applies computation to pairs of elements to return one element
+
+def f_zip(f, *lists):
+	return map(lambda tup: f(*tup), zip(*lists))
+	
+#recursive function to find sum from some number to another
+def sum_range(start, end):
+	if start == end:
+		return end
+	return sum_range(start, end-1) + end
+
+#reverses list recursively 	
+#def rrev(list):
+#		return (list[-1] + rrev(list[:-1]) if list else []
+		
+def fib(first, second, n):
+	if n==3:
+		return first+second
+	return fib(second, first+second, n-1)
