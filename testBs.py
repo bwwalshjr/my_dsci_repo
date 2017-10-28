@@ -49,4 +49,27 @@ import string
 #print(bs.sum_range(10,20))
 
 #Test fibonacci sequence
-print(bs.fib(1,1,6))
+#print(bs.fib(1,1,6))
+#print(bs.fib(1,1,10))
+#print(bs.fib(1,1,100))
+
+#Test faster fib
+#print(bs.fast_fib(1,1,6))
+#print(bs.fast_fib(1,1,10))
+#print(bs.fast_fib(1,1,100))
+
+#Test cartesian product function
+#print(bs.cart_product({1,2}, {'a','b'}, {'x','y'})) #should be (1,a,x), (1,a,y), (1,b,x), (1,b,y)
+
+#Test kcomb function
+#print(bs.kcomb([1,2,3,4], 2))
+#print(bs.kcomb([1,2,3,4,5,6], 3))
+
+#sqrt((x*x/2.3 + 3.91304347826087))
+#Tests the pipe function
+#f1 = lambda x: x+3
+#f2 = lambda x: x*x
+#f3 = lambda x: x/2.3
+#f4 = lambda x: x**.5
+#my_pipe = bs.pipe([f1,f2,f3,f4])
+#print(map(my_pipe, range(1,20)))

@@ -98,10 +98,57 @@ def sum_range(start, end):
 	return sum_range(start, end-1) + end
 
 #reverses list recursively 	
-#def rrev(list):
-#		return (list[-1] + rrev(list[:-1]) if list else []
-		
+def rrev(list):
+		return (list[-1] + rrev(list[:-1]) if list else [])
+	
+#Recursive fibonacci	
 def fib(first, second, n):
-	if n==3:
-		return first+second
+	if n==1:
+		return first
+	if n==2:
+		return second
 	return fib(second, first+second, n-1)
+
+#Faster recursive fibonacci, use memoization to avoid re-solving sub-problems
+def fast_fib(first, second, n, cache={}):
+	if n==1:
+		return first
+	if n==2:
+		return second
+	elif cache.has_key(n):
+		return cache[n]
+	else:
+		val = fast_fib(first, second, n-1, cache) + fast_fib(first, second, n-2, cache)
+		cache[n] = val
+		return val
+
+#all combinations of one value from each set
+def cart_product(*sets):
+	if len(sets) == 1:
+		return map(lambda x: [x], sets[0])
+	else:
+		rest = cart_product(*sets[1:])
+		combine = lambda x: map(lambda y: [x] + y, rest)
+		return reduce(lambda x,y: x + y, map(combine, sets[0]))
+	
+#Finds all distinct combinations of k elements taken from elts	
+def kcomb(elts, k):
+	if len(elts) == k:
+		return [elts]
+	if k == 1:
+		return map(lambda x: [x], elts)
+	else: 
+		partials = kcomb(elts[1:], k - 1)
+		return map(lambda x: [elts[0]] + x, partials) + kcomb(elts[1:], k)
+
+#Build a compositional pipe function - 
+#builds a new function that applies the specified functions in sequence to an input		
+def pipe(function_sequence):
+	def applier(input):
+		output = input
+		for f in function_sequence:
+			output = f(output)
+		return output
+
+#Regression: building a function that fits the data, in order to predict a value
+#Regression and classification = supervised learning
