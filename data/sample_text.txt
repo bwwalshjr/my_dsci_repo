@@ -1,5 +1,0 @@
-This is a sample text file.
-My name is Brian.
-I'm someone who had pizza for lunch!
-Tonight will be extra-special.
-Sometimes we want to duplicate duplicate words.
