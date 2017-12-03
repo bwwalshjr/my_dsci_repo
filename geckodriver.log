@@ -1,0 +1,91 @@
+1512192698948	geckodriver	INFO	geckodriver 0.19.1
+1512192698958	geckodriver	INFO	Listening on 127.0.0.1:63345
+1512192700789	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-profile" "C:\\Users\\Brian\\AppData\\Local\\Temp\\rust_mozprofile.oI5l4xIqdJVT"
+1512192701509	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 10068, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 9188, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1512192706613	Marionette	INFO	Listening on port 63351
+1512192707583	Marionette	WARN	TLS certificate errors will be ignored for this session
+1512192707650	Marionette	DEBUG	Register listener.js for window 4294967297
+1512192707914	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1512192707988	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1512192707988	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+1512192708406	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://www.champion.gg/statistics/"
+1512192710071	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967301"
+1512192710218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967308"
+1512192710218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967309"
+1512192710218	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967310"
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+JavaScript warning: http://ads.ayads.co/ajs.php?zid=15696, line 201: unreachable code after return statement
+1512192731516	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.champion.gg/statistics/"
+2"
+1512178620265	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967346"
+1512178620265	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967387"
+1512178620266	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967350"
+1512178620266	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967360"
+1512178620266	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967351"
+1512178620267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967362"
+1512178620267	Marionette	DEBUG	Received observer notification "outer-window-destroyed" for "4294967344"
+1512178620585	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.champion.gg/statistics/"
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10332, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 13888, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 464
+ice=23.75001&pricePaid=22.444331&creativeSize=1800x1000&advId=2156612&io=654185&creativeId=81850804&tagId=10714707&advFreq=0&sessionFrq=-1&cpgId=4803737&datacente=nym2&ecp=21.29&height=1000&ozoneId=${OZONE_ID}&publisherId=690333&reservePrice=0&segmentIds=&siteId=2698686&userAgent=1800&width=1800&deviceAAID=&deviceWINID=&supplyType=0&d0=&d1=&d2=&d3=&d4=, line 3: ReferenceError: sendError is not defined
+1512178394638	Marionette	DEBUG	Received DOM event "pageshow" for "http://www.champion.gg/statistics/"
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 8772, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+hampion.gg&la=&lo=&apid=&mak=0&mod=0&car=1&cpId=18998487&bidPrice=23.75001&pricePaid=22.420382&creativeSize=1800x1000&advId=2156612&io=654185&creativeId=81850804&tagId=10714707&advFreq=0&sessionFrq=-1&cpgId=4803737&datacente=nym2&ecp=21.29&height=1000&ozoneId=${OZONE_ID}&publisherId=690333&reservePrice=0&segmentIds=&siteId=2698686&userAgent=1800&width=1800&deviceAAID=&deviceWINID=&supplyType=0&d0=&d1=&d2=&d3=&d4=, line 3: ReferenceError: sendError is not defined
+JavaScript error: http://trac.mediaiqdigital.com/script?aid=3609473441580265918&uid=569764856252868845&ip=76.78.224.240&sid=3540&url=champion.gg&la=&lo=&apid=&mak=0&mod=0&car=1&cpId=18998487&bidPrice=23.75001&pricePaid=22.420382&creativeSize=1800x1000&advId=2156612&io=654185&creativeId=81850804&tagId=10714707&advFreq=0&sessionFrq=-1&cpgId=4803737&datacente=nym2&ecp=21.29&height=1000&ozoneId=${OZONE_ID}&publisherId=690333&reservePrice=0&segmentIds=&siteId=2698686&userAgent=1800&width=1800&deviceAAID=&deviceWINID=&supplyType=0&d0=&d1=&d2=&d3=&d4=, line 3: ReferenceError: sendError is not defined
+JavaScript error: http://trac.mediaiqdigital.com/script?aid=3609473441580265918&uid=569764856252868845&ip=76.78.224.240&sid=3540&url=champion.gg&la=&lo=&apid=&mak=0&mod=0&car=1&cpId=18998487&bidPrice=23.75001&pricePaid=22.420382&creativeSize=1800x1000&advId=2156612&io=654185&creativeId=81850804&tagId=10714707&advFreq=0&sessionFrq=-1&cpgId=4803737&datacente=nym2&ecp=21.29&height=1000&ozoneId=${OZONE_ID}&publisherId=690333&reservePrice=0&segmentIds=&siteId=2698686&userAgent=1800&width=1800&deviceAAID=&deviceWINID=&supplyType=0&d0=&d1=&d2=&d3=&d4=, line 3: ReferenceError: sendError is not defined
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11236, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Parent 11236, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 7088, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ath
+[GPU 6300, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ta\Local\openvr\openvrpaths.vrpath
+[Parent 11752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 9508, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 11752, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1052, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+*** UTM:SVC TimerManager:registerTimer called after profile-before-change notification. Ignoring timer registration for id: telemetry_modules_ping
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 8580, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+c.mediaiqdigital.com/script?aid=959671753042609550&uid=7498687132179854419&ip=76.78.224.240&sid=3540&url=champion.gg&la=&lo=&apid=&mak=0&mod=0&car=1&cpId=18998487&bidPrice=23.75001&pricePaid=22.420382&creativeSize=1800x1000&advId=2156612&io=654185&creativeId=81850804&tagId=10714707&advFreq=0&sessionFrq=-1&cpgId=4803737&datacente=nym2&ecp=21.29&height=1000&ozoneId=${OZONE_ID}&publisherId=690333&reservePrice=0&segmentIds=&siteId=2698686&userAgent=1800&width=1800&deviceAAID=&deviceWINID=&supplyType=0&d0=&d1=&d2=&d3=&d4=, line 3: ReferenceError: sendError is not defined
+JavaScript error: http://trac.mediaiqdigital.com/script?aid=959671753042609550&uid=7498687132179854419&ip=76.78.224.240&sid=3540&url=champion.gg&la=&lo=&apid=&mak=0&mod=0&car=1&cpId=18998487&bidPrice=23.75001&pricePaid=22.420382&creativeSize=1800x1000&advId=2156612&io=654185&creativeId=81850804&tagId=10714707&advFreq=0&sessionFrq=-1&cpgId=4803737&datacente=nym2&ecp=21.29&height=1000&ozoneId=${OZONE_ID}&publisherId=690333&reservePrice=0&segmentIds=&siteId=2698686&userAgent=1800&width=1800&deviceAAID=&deviceWINID=&supplyType=0&d0=&d1=&d2=&d3=&d4=, line 3: ReferenceError: sendError is not defined
+JavaScript error: http://trac.mediaiqdigital.com/script?aid=959671753042609550&uid=7498687132179854419&ip=76.78.224.240&sid=3540&url=champion.gg&la=&lo=&apid=&mak=0&mod=0&car=1&cpId=18998487&bidPrice=23.75001&pricePaid=22.420382&creativeSize=1800x1000&advId=2156612&io=654185&creativeId=81850804&tagId=10714707&advFreq=0&sessionFrq=-1&cpgId=4803737&datacente=nym2&ecp=21.29&height=1000&ozoneId=${OZONE_ID}&publisherId=690333&reservePrice=0&segmentIds=&siteId=2698686&userAgent=1800&width=1800&deviceAAID=&deviceWINID=&supplyType=0&d0=&d1=&d2=&d3=&d4=, line 3: ReferenceError: sendError is not defined
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[Child 14092, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 1288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 1288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
+[GPU 6368, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+Unable to read VR Path Registry from C:\Users\Brian\AppData\Local\openvr\openvrpaths.vrpath
